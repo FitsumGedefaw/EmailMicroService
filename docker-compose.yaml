@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  gebeya-email-api:
+    build: ./GebeyaEmailAPI
+    container_name: gebeya-email-api_c
+    ports:
+      - "3006:3006"
+    volumes:
+      - ./GebeyaEmailAPI:/app
+      - /app/node_modules

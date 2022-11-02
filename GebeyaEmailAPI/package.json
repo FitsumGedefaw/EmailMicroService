@@ -1,0 +1,30 @@
+{
+  "name": "GebeyaEmailAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "node index.js",
+    "test": "mocha --timeout 600000",
+    "dev": "nodemon -L index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.1",
+    "fs-extra": "^10.1.0",
+    "handlebars": "^4.7.7",
+    "puppeteer": "^16.0.0"
+  },
+  "devDependencies": {
+    "@firebase/app": "^0.7.32",
+    "@firebase/auth": "^0.20.6",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}

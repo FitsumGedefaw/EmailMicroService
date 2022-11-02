@@ -1,0 +1,247 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>profileDeclinedNotification</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!--  <link href='https://fonts.googleapis.com/css?family=Roboto:wght@100;200;300;400;500;600;700;00;900'
+        rel='stylesheet' /> -->
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: Roboto, sans-serif;
+            background-color: #fff;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .nain-container {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .main {
+            background-color: white;
+            max-width: 630px;
+            width: 100%;
+            margin: 20px auto 40px;
+            border-spacing: 0;
+            /* height: 2px; */
+        }
+
+        .footer-container {
+            width: 100%;
+            text-align: center;
+            background-color: #65318f;
+            padding: 10px 0;
+        }
+
+        .footer-container .footer-text {
+            color: white;
+            /* font-family: roboto, tahoma, sans-serif; */
+            font-size: 11px;
+            word-spacing: 1px;
+            font-weight: lighter;
+            font-family: sans-serif;
+            /* line-height: 25px; */
+            margin: 18px auto 30px;
+        }
+
+        .footer-link {
+            margin: 10px auto 40px;
+            text-align: center;
+        }
+
+        .footer-link a {
+            text-decoration: none;
+            /* margin-bottom: 20px; */
+        }
+    </style>
+</head>
+
+<body>
+    <center class="main-container">
+        <table class="main" width="100%">
+            <!-- TOP LOGO SECTION-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td width="100%">
+                                <div style="text-align: center;">
+                                    <a href="https://gebeya.com/"><img class="logo-img" alt="gebeya.com image"
+                                            src="https://images.gp.gebeya.io/logo/logo.png" border="0" width="60" /></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- MIDDLE TEXT SECTOIN -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <div>
+                                    <p style="
+                        /* border: 2px solid #65318f; */
+                        color: #65318f;
+                        padding: 5px 10px;
+                        font-weight: 600;
+                        text-align: center;
+
+                        font-size:30px;
+                      ">
+                                        Welcome to the Gebeya <br />
+                                        Talent Marketplace
+                                    </p>
+
+                                    <p style="
+                        color: #000000;
+                        /* text-align: left; */
+                        line-height: 20px;
+                        font-size: 15px;
+                        padding: 0px 15px;
+                        /* font-weight: bold; */
+                        /* font-family: roboto, tahoma, sans-serif; */
+                      ">
+                                        <span style="font-size: 21px;
+                                        ">Dear {{person.firstName}} {{person.lastName}}</span>
+                                        <br> <br>
+                                        Congratulations on being selected to join Gebeya’s Talent
+                                        Marketplace, home to the Best of African Talent. You have
+                                        diligently passed our rigorous talent screening process
+                                        and proved that you have what it takes to provide
+                                        world-class service to our customers. You are now part of
+                                        a community of doers ready to change the future of work
+                                        <br />
+                                        <br />
+
+                                        <span style="
+                          
+                          font-size: 20px;
+                          /* font-family: roboto, tahoma, sans-serif; ; */
+                        ">
+                                            What's next?</span>
+                                        <br />
+                                        <br />
+                                        You will be invited to an official onboarding meeting with
+                                        Gebeya’s team and you will be provided all the required
+                                        information as you start your journey with us.
+
+                                        <br />
+                                        <br />
+                                        You will meet with the team who will manage your future
+                                        engagements and connect you with potential clients. As you
+                                        engage on our platform, we will ensure you always know
+                                        where you stand with prospective clients and projects.
+                                        Moreover, you will receive the talent guide, welcome kit,
+                                        and all other relevant information.
+
+                                        <br />
+                                        <br />
+                                        On behalf of Gebeya, once again, I welcome you to this
+                                        prestigious African Marketplace. We are excited to have
+                                        you on board.
+
+                                        <br /><br />
+                                        Sincerely, <br /> <br>
+                                        Amadou Daffe <br />
+                                        CEO/Co-Founder
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- FOOOTER SECTION -->
+
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="display: block; margin: 10px auto">
+                                <div class="footer-container">
+
+                                    <img style="
+                          /* border: 2px solid aqua; */
+                          background-color: #65318f;
+                          border-radius: 5px;
+                          padding: 5px 10px;
+                          margin: 10px auto;
+                          width: 150px;
+                          /* margin: 10px auto; */
+                        " src="http://images.gp.gebeya.io/logo/logo-full-990000045101453c.png"
+                                        alt="Gebeya logo image" />
+
+                                    <p class="footer-text" style="font-size: 15px; margin: 15px auto">
+                                        Ethiopia | Kenya | Senegal | USA
+                                    </p>
+                                    <!-- <p class="footer-text">
+                      You are receiving this email because you registered for
+                      the Gebeya Marketplace.
+                    </p> -->
+                                    <p class="footer-text">
+                                        © 2022 All Rights Reserved by Gebeya Inc.
+                                    </p>
+                                </div>
+
+                                <!--  <div class="footer-link">
+                                    <a href="http://www.facebook.com/gebeyatalent">
+                                        <img src="http://images.gp.gebeya.io/social-icons/facebook.png" width="26"
+                                            alt="Facebook" />
+                                    </a>
+
+                                    <a href="http://www.twitter.com/GebeyaTalent">
+                                        <img src="http://images.gp.gebeya.io/social-icons/twitter.png" width="26"
+                                            alt="Twitter" />
+                                    </a>
+
+                                    <a href="https://www.youtube.com/channel/UCxKsrv8lDyx1kunNI6cAdUA">
+                                        <img src="http://images.gp.gebeya.io/social-icons/youtube.png" width="26"
+                                            alt="Youtube" />
+                                    </a>
+
+                                    <a href="http://www.instagram.com/gebeyatalent">
+                                        <img src="http://images.gp.gebeya.io/social-icons/instagram.png" width="26"
+                                            alt="Instagram" />
+                                    </a>
+
+                                    <a href="https://www.linkedin.com/company/gebeya-inc.">
+                                        <img src="http://images.gp.gebeya.io/social-icons/linkedin.png" width="26"
+                                            alt="Instagram" />
+                                    </a>
+                                </div> -->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

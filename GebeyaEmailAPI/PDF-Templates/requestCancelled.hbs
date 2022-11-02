@@ -1,0 +1,218 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style type="text/css">
+    body {
+      margin: 0;
+      background-color: #fff;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    img {
+      border: 0;
+    }
+
+    .nain-container {
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    .main {
+      background-color: white;
+      max-width: 630px;
+      width: 100%;
+      margin: 0 auto;
+      border-spacing: 0;
+      /* height: 2px; */
+    }
+
+    .footer-container {
+      width: 90%;
+      margin: 10px auto;
+      /* border: 2px solid red; */
+      text-align: center;
+      background-color: #65318f;
+      padding: 25px 10px;
+    }
+
+    .footer-container .footer-text {
+      color: white;
+      font-family: roboto, tahoma, sans-serif;
+      font-size: 13px;
+      /* line-height: 25px; */
+      margin: 18px auto 30px;
+    }
+
+    .footer-link {
+      margin: 10px auto 40px;
+      text-align: center;
+    }
+
+    .footer-link a {
+      text-decoration: none;
+      /* margin-bottom: 20px; */
+    }
+  </style>
+</head>
+
+<body>
+  <center class="main-container">
+    <table class="main" width="100%">
+      <!-- TOP LOGO SECTION-->
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td width="100%">
+                <div style="text-align: center; margin: 35px auto 10px">
+                  <a href="https://gebeya.com/"><img class="logo-img" alt="gebeya.com image"
+                      src="https://gebeya.com/wp-content/uploads/2022/01/Submit-your-application-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-2assets-1536x594.png"
+                      border="0" width="200" /></a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- MIDDLE TEXT SECTOIN -->
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td>
+                <div class="main-text">
+                  <p style="
+                        /* border: 2px solid #65318f; */
+                        color: #65318f;
+                        font-weight: bolder;
+                        text-align: center;
+                        letter-spacing: 1px;
+                        font-family: sans-serif;
+
+                        font-size: xx-large;
+                        /* line-height: 48px;  */
+                      ">
+                    Dear {{ person.firstName }},
+                  </p>
+
+                  <p style="
+                        color: #000000;
+                        /* text-align: left; */
+                        line-height: 20px;
+                        font-size: 15px;
+                        padding: 10px 15px;
+                        font-weight: normal;
+                        font-family: roboto, tahoma, sans-serif;
+                      ">
+                    Thank you for being a valued talent on the Gebeya
+                    Marketplace. We thank you for the hope and energy
+                    invested. <br /><br />
+                    As you know, Gebeya’s team is committed to meeting the
+                    needs of our talents and clients everywhere. Through
+                    research, feedback, and engagement, we strive to improve
+                    and provide optimum service for all.<br /><br />
+                    Unfortunately, even though you have been matched to a
+                    project {{ requestDetail.requestNumber }}, we are sorry to inform you
+                    that we won't be able to move you to the next round of our
+                    process at the client’s behest.<br /><br />
+
+                    However, We’d like to support you standing out and
+                    improving your chances for next time. Please find
+                    <a
+                      href="https://drive.google.com/drive/folders/1CbNbYF7W1H6Zx-ZCWVynDBsejcI03x2q?usp=sharing">here</a>
+                    tips and tricks to wow the client and get hired.
+
+                    <br /><br /><br /><br />
+                    Thank you! <br />
+                    The Gebeya Marketplace Team
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- FOOOTER SECTION -->
+
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td style="display: block; margin: 20px auto 10px">
+                <div class="footer-container">
+                  <a href="">
+                    <img style="
+                          /* border: 2px solid aqua; */
+                          background-color: white;
+                          border-radius: 5px;
+                          padding: 5px 10px;
+                          margin: 10px auto;
+                          width: 200px;
+                          margin: 30px auto;
+                        " src="http://africanmediaagency.com/wp-content/uploads/2021/07/gebeya-logo.png"
+                      alt="Gebeya logo image" />
+                  </a>
+                  <p class="footer-text" style="font-size: 15px; margin: 15px auto">
+                    Ethiopia &nbsp;
+                    <strong> | </strong>
+                    &nbsp; Kenya &nbsp; <strong> | </strong> &nbsp; Senegal
+                    &nbsp;<strong> | </strong>&nbsp; USA
+                  </p>
+                  <p class="footer-text">
+                    You are receiving this email because you registered for
+                    the Gebeya Marketplace.
+                  </p>
+                  <p class="footer-text">
+                    © All Rights Reserved by Gebeya Inc. Read our Privacy
+                    Policy.
+                  </p>
+                </div>
+
+                <div class="footer-link">
+                  <a href="http://www.facebook.com/gebeyatalent">
+                    <img src="http://images.gp.gebeya.io/social-icons/facebook.png" width="26" alt="Facebook" />
+                  </a>
+
+                  <a href="http://www.twitter.com/GebeyaTalent">
+                    <img src="http://images.gp.gebeya.io/social-icons/twitter.png" width="26" alt="Twitter" />
+                  </a>
+
+                  <a href="https://www.youtube.com/channel/UCxKsrv8lDyx1kunNI6cAdUA">
+                    <img src="http://images.gp.gebeya.io/social-icons/youtube.png" width="26" alt="Youtube" />
+                  </a>
+
+                  <a href="http://www.instagram.com/gebeyatalent">
+                    <img src="http://images.gp.gebeya.io/social-icons/instagram.png" width="26" alt="Instagram" />
+                  </a>
+
+                  <a href="https://www.linkedin.com/company/gebeya-inc.">
+                    <img src="http://images.gp.gebeya.io/social-icons/linkedin.png" width="26" alt="Instagram" />
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+
+</html>
